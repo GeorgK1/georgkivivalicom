@@ -1,0 +1,44 @@
+
+.homepage-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #140f10;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.homepage-wrapper > h1 {
+    position: absolute;
+    top: 0;
+}
+
+.buttons {
+    font-size: 3em;
+    position: absolute;
+    bottom: 0;
+}
+
+.buttons > a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links > a{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    font-size: 2em;
+}

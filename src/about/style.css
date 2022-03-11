@@ -1,0 +1,9 @@
+.textWrapper {
+    margin: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
